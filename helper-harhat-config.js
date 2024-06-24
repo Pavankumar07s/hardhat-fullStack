@@ -7,6 +7,10 @@ const networkConfig={
         name:'polygon',
         ethUsdpriceFeed:'0x7bAC85A8a13A4BcD8abb3eB7d6b4d632c5a57676'
     }
-}            
+}       
 
-module.exports={networkConfig};
+const developmentChains=["hardhat","localhost"]
+const DECIMAL=8;
+const INITIAL_ANSWER=20000000000
+
+module.exports={networkConfig,developmentChains,DECIMAL,INITIAL_ANSWER};
