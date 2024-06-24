@@ -18,7 +18,7 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
             log: true,
         })
         console.log("Mocks deployed")
-        console.log("------------------------------------")
+        console.log("--------------------------------------")
     }
 }
 
